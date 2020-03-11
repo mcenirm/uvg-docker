@@ -1,0 +1,8 @@
+version: "3"
+services:
+  uvg:
+    build: uvg
+    environment:
+      - SECRET_KEY_BASE=foo
+    ports:
+      - "3000:3000"
